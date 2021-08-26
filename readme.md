@@ -11,6 +11,7 @@ To compile typescript and run examples:
 ```
 clone repo and 
 npm install
+`run your scripts through`
 tsc-node-dev index.ts
 ||
 node node index.js
