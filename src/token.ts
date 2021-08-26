@@ -1,11 +1,11 @@
 const TOKENS: string[] = [
-  "BTC",
-  "FTT",
-  "DOGE",
-  "SRM",
-  "SOL",
-  "MATIC",
-  "THETA"
+  "EXCH",
+  "ADA",
+  "RUNE",
+  // "SHIT",
+  // "SUSHI",
+  // "MATIC",
+  // "THETA"
 ]
 
 export { TOKENS }

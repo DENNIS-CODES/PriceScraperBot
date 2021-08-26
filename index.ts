@@ -18,9 +18,9 @@ const ohlcv_historic_data = async () => {
       url: `https://rest.coinapi.io/v1/ohlcv/${candle}/USD/history`,
       params: {
         period_id: '15MIN',
-        time_start: '2021-08-22T00:00:00',
-        time_end: '2021-08-26T00:00:00',
-        limit: '400'
+        time_start: '2021-08-01T00:00:00',
+        time_end: '2021-08-27T00:00:00',
+        limit: '2300'
       },
       headers: {
         'X-CoinAPI-Key': process.env.COIN_API_KEY
