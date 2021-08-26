@@ -1,19 +1,23 @@
 # PriceScrapeBot
-This is a `Bot` that uses `coinMarket API` to get `Historical data` of crypto currencies at an interval of `15 MINS`
-The data is later saved in an excelsheet
+This `Bot` uses `coinMarket API` to get `Historical data` of crypto currencies at an interval of `15 MINS`
+The data is later saved in an excel file sheets
 
 # Prerequisite
-- add your api key to your .env file as shown in Exampple.env file
+- add your api key to your .env file as shown in Example.env file
 - you can also add more or remove crypto coins from tokens.ts 
 # Compiling 
 To compile typescript and run examples:
 
 ```
-clone repo and 
+clone repo and
+-------------------------
 npm install
+-------------------------
+`run your scripts through`
+--------------------------
 tsc-node-dev index.ts
 ||
-node node index.js
+node index.js
 ```
 
 There are compiled files of sdk and example are in javascript-rest folder
