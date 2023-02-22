@@ -18,8 +18,8 @@ const ohlcv_historic_data = async () => {
       url: `https://rest.coinapi.io/v1/ohlcv/${candle}/USD/history`,
       params: {
         period_id: '15MIN',
-        time_start: '2021-08-01T00:00:00',
-        time_end: '2021-08-27T00:00:00',
+        time_start: '2021-11-06T00:00:00',
+        time_end: '2021-12-06T00:00:00',
         limit: '2300'
       },
       headers: {
